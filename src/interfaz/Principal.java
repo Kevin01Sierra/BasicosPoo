@@ -5,6 +5,8 @@
  */
 package interfaz;
 
+import Logica.CapturaTeclado;
+
 /**
  *
  * @author Estudiantes
@@ -12,7 +14,9 @@ package interfaz;
 public class Principal {
 
     public static void main(String[] args){
-        System.out.println("Hola Mundo :D \n");
+        System.out.println("Nuevo Ejercicio: ");
+        CapturaTeclado ct = new CapturaTeclado();
+        ct.operacion();
     }
 
 }
