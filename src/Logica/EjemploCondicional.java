@@ -16,9 +16,9 @@ public class EjemploCondicional {
         Random r = new Random();
         int numero = r.nextInt();
         if (numero % 2 == 0){
-            System.out.println(numero + " es par");
+            System.out.println(numero + " es par\n");
         }else{
-            System.out.println(numero + " es impar");
+            System.out.println(numero + " es impar\n");
         }
     }
 }

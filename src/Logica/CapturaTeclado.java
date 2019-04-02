@@ -15,8 +15,8 @@ public class CapturaTeclado {
     
     public void operacion(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese su nombre: \n");
+        System.out.println("Ingrese su nombre:\n");
         String nom = sc.nextLine();
-        System.out.println("Hola " + nom);
+        System.out.println("Hola " + nom+"\n");
     }
 }
